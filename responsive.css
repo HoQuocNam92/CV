@@ -8,4 +8,7 @@
          width: 100% !important;
      }
 
+     #sidebar .profile {
+         margin-bottom: 16px;
+     }
  }
