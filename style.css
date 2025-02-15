@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    background-color: #f1f1f1;
+    color: #757575;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: 16px auto;
+    padding: 0 8px;
+}
+
+#sidebar {
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+#sidebar img {
+    width: 100%;
+    display: block;
+
+}
+
+#sidebar .profile {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+}
+
+#sidebar .user {
+    position: relative;
+}
+
+#sidebar .profile i {
+    color: rgb(0, 150, 136);
+}
+
+#sidebar .profile-name {
+    position: absolute;
+    bottom: 0;
+    padding: 0 16px;
+}
+
+#sidebar .profile-name h2 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+
+.padding {
+    padding: 0 16px;
+}
+
+.margin-small {
+    margin: 15px 0;
+
+}
+
+.font-size-medium {
+    font-size: 18px;
+}
+
+.margin-medium {
+    margin: 18px 0;
+}
+
+.margin-large {
+    margin: 20px 0;
+    border: 1px solid rgba(205, 205, 205, 0.2);
+}
+
+.profile .profile-info {
+    display: block;
+}
+
+.profile .profile-info p {
+    display: block;
+
+}
+
+
+.margin-right {
+    margin-right: 16px;
+
+}
+
+.skills .progress-bar {
+    background-color: rgb(241, 241, 241);
+    border-radius: 16px;
+}
+
+.profile .skills .progress-fill-90,
+.profile .skills .progress-fill-80,
+.profile .skills .progress-fill-75,
+.profile .skills .progress-fill-50 {
+    text-align: center;
+    color: #fff;
+    background: rgb(0, 150, 136);
+    border-radius: 16px;
+}
+
+.profile .skills .progress-fill-90 {
+    width: 90%;
+}
+
+.profile .skills .progress-fill-80 {
+    width: 80%;
+}
+
+.profile .skills .progress-fill-75 {
+    width: 75%;
+}
+
+.profile .skills .progress-fill-50 {
+    width: 50%;
+}
+
+#main-content {
+    padding: 0 8px;
+    width: 66.66666%;
+}
+
+#main-content .content {
+    background-color: #fff;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+#main-content .content h2 {
+    display: inline-block;
+    width: 100%;
+    font-size: 30px;
+    padding: 16px 0;
+    margin: 10px 0;
+}
+
+#main-content .content hr {
+    margin: 20px 0;
+    border: 1px solid rgba(205, 205, 205, 0.2);
+    padding: 0 16px;
+}
+
+#main-content .content h5 {
+    margin: 10px 0;
+}
+
+#main-content .content p {
+    margin: 15px 0;
+    color: #000;
+}
+
+#main-content .content h5 b {
+    font-size: 18px;
+}
+
+.height-medium {
+    border-radius: 16px;
+    height: 24px;
+}
+
+.progress-100 {
+    width: 100%;
+}
+
+.progress-50 {
+    width: 50%;
+}
+
+.progress-30 {
+    width: 30%;
+}
+
+.background-medium {
+    background: rgb(0, 150, 136);
+
+}
+
+#main-content .content-section .work {
+    padding: 0 16px;
+    display: inline-block;
+    width: 100%;
+}
+
+#main-content .section-heading {
+    color: rgb(0, 150, 136);
+    font-weight: 400;
+}
+
+#main-content .section-heading i {
+    margin-right: 22px;
+}
+
+
+#main-content .content h6 {
+    font-size: 16px;
+    color: rgb(0, 150, 136);
+    margin: 10px 0;
+}
+
+#footer {
+    margin-top: 16px;
+    background-color: #009688 !important;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+
+#footer p {
+    margin: 15px 0;
+}

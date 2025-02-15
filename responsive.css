@@ -1,0 +1,11 @@
+ @media (max-width : 768px) {
+     #main {
+         display: block !important;
+     }
+
+     #main-content,
+     #sidebar {
+         width: 100% !important;
+     }
+
+ }
